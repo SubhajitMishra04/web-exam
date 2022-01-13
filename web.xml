@@ -1,50 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="web.xsl"?>
-<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="web.xsd">
-
-
-    <employee>
-        <name>Jim</name>
-        <age>32</age>
-        <salary>55000</salary>
-        <emailid>jim@gmail.com</emailid>
-        <phonenum>1234567890</phonenum>
-        <designation>Sales</designation>
-    </employee>
-
-    <employee>
-        <name>Dwight</name>
-        <age>35</age>
-        <salary>60000</salary>
-        <emailid>dwight@gmail.com</emailid>
-        <phonenum>2555367459</phonenum>
-        <designation>Sales</designation>
-    </employee>
-
-    <employee>
-        <name>Michael</name>
-        <age>40</age>
-        <salary>65000</salary>
-        <emailid>michael@gmail.com</emailid>
-        <phonenum>1324354687</phonenum>
-        <designation>Manager</designation>
-    </employee>
-
-    <employee>
-        <name>Pam</name>
-        <age>30</age>
-        <salary>51000</salary>
-        <emailid>pam@gmail.com</emailid>
-        <phonenum>7968574623</phonenum>
-        <designation>receptionist</designation>
-    </employee>
-
-    <employee>
-        <name>oscar</name>
-        <age>39</age>
-        <salary>55000</salary>
-        <emailid>oscar@gmail.com</emailid>
-        <phonenum>1559273681</phonenum>
-        <designation>accounts</designation>
-    </employee>
-</company>
+<Companys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="web.xsd">
+  <Employee>
+    <Emp-id>1</Emp-id>
+    <Emp-name>Subhajith</Emp-name>
+    <Emp-age>54</Emp-age>
+    <Emp-salary>89765</Emp-salary>
+    <Emp-emailid>subha@gmail.com</Emp-emailid>
+    <Emp-phonenumber>8765432109</Emp-phonenumber>
+    <Emp-designation> Manager</Emp-designation>
+  </Employee>
+  <Employee>
+    <Emp-id>2</Emp-id>
+    <Emp-name>deepit</Emp-name>
+    <Emp-age>89</Emp-age>
+    <Emp-salary>98765</Emp-salary>
+    <Emp-emailid>deepit@gmail.com</Emp-emailid>
+    <Emp-phonenumber>8769054321</Emp-phonenumber>
+    <Emp-designation>Intern</Emp-designation>
+  </Employee>
+  <Employee>
+    <Emp-id>3</Emp-id>
+    <Emp-name>Saurav</Emp-name>
+    <Emp-age>29</Emp-age>
+    <Emp-salary>87654</Emp-salary>
+    <Emp-emailid>saurav@gmail.com</Emp-emailid>
+    <Emp-phonenumber>9876543210</Emp-phonenumber>
+    <Emp-designation>Intern</Emp-designation>
+  </Employee>
+</Companys>
